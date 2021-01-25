@@ -1,0 +1,36 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+  background-color: #FFF;
+  background-image: linear-gradient(to center, rgba(0, 1, 85, 0.5), transparent);
+}
+
+.header {
+  background-color: #1F1303;
+  background-image: linear-gradient(to center, rgba(0, 1, 80, 0.5), transparent);
+  mmin-height: 200px;
+  padding: 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.content {
+  min-height: 200px;
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.canvas-wave {
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+canvas {
+  display: block;
+}
