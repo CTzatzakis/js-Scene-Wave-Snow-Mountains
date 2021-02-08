@@ -1,5 +1,5 @@
-# js-wave-particle-Designs-etc
-waves, particles and fractal designs
+# js-Scene-Wave-Snow-Mountains
+waves, Snow particles and Mountains - js, css, html shapes movement etc
 
 
 ## Scene Preview
