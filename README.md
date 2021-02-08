@@ -6,3 +6,6 @@ waves, particles and fractal designs
 Slide show on main         |
 :-------------------------:|
 ![Template preview](https://github.com/CTzatzakis/js-Scene-Wave-Snow-Mountains/raw/master/resources/img/preView.png)  |
+
+
+![Template preview111](https://github.com/CTzatzakis/js-Scene-Wave-Snow-Mountains/tree/main/resources/img/preView.png)  |
