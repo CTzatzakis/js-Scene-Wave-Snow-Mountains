@@ -4,8 +4,9 @@
 	var cnvs,ctx;
 	var nodes = 8;
 	var waves = [];
-	var waveHeight = 400;
-	var colours = ["#F27807","#7A3C09","#E49956"]
+	var waveHeight = 200;
+	var colours = ["#232A5C","#2158A8","#2E88C7"]
+	//var colours = ["#F27807","#7A3C09","#E49956"]
 	
 	function init() {
 		cnvs = document.getElementById("canvas");
@@ -27,7 +28,7 @@
 
 	function update(array) {
 		ctx.clearRect(0, 0, cnvs.width, cnvs.height);
-    var fill = window.getComputedStyle(document.querySelector(".header"),null).getPropertyValue("background-color");
+    var fill = window.getComputedStyle(document.querySelector(".wave-header"),null).getPropertyValue("background-color");
 		ctx.fillStyle = fill;
 		ctx.globalCompositeOperation = "source-over";
 		ctx.fillRect(0,0,cnvs.width,cnvs.height);
