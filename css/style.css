@@ -10,7 +10,7 @@ html,body{
 body {
   margin: 0;
   padding: 4rem; /*Create a paspartu frame effect*/
-  background-color: #fff;
+  background-color: #ff3333;
   background-image: linear-gradient(to center, rgba(0, 1, 85, 0.5), transparent);
 }
 
@@ -43,16 +43,16 @@ body {
     clip-path: polygon(0% 100%, 100% 100%, 50% 0%);
     background-color:#088A85;
     background-image: linear-gradient(to top, rgba(60, 179, 113, 0.5), transparent);/*For when there is no snow effect*/
-    background: linear-gradient(to bottom, white 20%, #088A85 30% 70%);/*Snow Effect*/
+    /*background: linear-gradient(to bottom, white 20%, #088A85 30% 70%);Snow Effect*/
 }
 .mountain-2 {
-	position: absolute; bottom: 0; left: 6%; 
-    width: 50%;
+	position: absolute; bottom: 0; left: 0%; 
+    width: 100%;
     height: 70%;
     clip-path: polygon(0% 100%, 100% 100%, 50% 0%);
     background-color:#0B0B61;
     background-image: linear-gradient(to top, rgba(0, 1, 80, 0.5), transparent);/*For when there is no snow effect*/
-    background: linear-gradient(to bottom, white 20%, #0B0B61 30% 70%);/*Snow Effect*/
+    /*background: linear-gradient(to bottom, white 20%, #0B0B61 30% 70%);Snow Effect*/
 }
 .mountain-3 {
 	position: absolute; bottom: 0; left: 28%; 
@@ -61,7 +61,7 @@ body {
     clip-path: polygon(0% 100%, 100% 100%, 50% 0%);
     background-color:#086A87;
     background-image: linear-gradient(to top, rgba(0, 1, 80, 0.5), transparent);/*For when there is no snow effect*/
-    background: linear-gradient(to bottom, white 20%, #086A87 30% 70%);/*Snow Effect*/
+    /*background: linear-gradient(to bottom, white 20%, #086A87 30% 70%);Snow Effect*/
 }
 .mountain-4 {
 	position: absolute; bottom: 0; right: 18%; 
@@ -70,7 +70,7 @@ body {
     clip-path: polygon(0% 100%, 100% 100%, 50% 0%);
     background-color:#848484;
     background-image: linear-gradient(to top, rgba(0, 1, 80, 0.5), transparent);/*For when there is no snow effect*/
-    background: linear-gradient(to bottom, white 20%, #848484 30% 70%);/*Snow Effect*/
+    /*background: linear-gradient(to bottom, white 20%, #848484 30% 70%);Snow Effect*/
 }
 .mountain-5 {
 	position: absolute; bottom: 0; right: 0; 
@@ -79,7 +79,7 @@ body {
     clip-path: polygon(0% 100%, 100% 100%, 50% 0%);
     background-color:#08298A;
     background-image: linear-gradient(to top, rgba(60, 179, 113, 0.5), transparent);/*For when there is no snow effect*/
-    background: linear-gradient(to bottom, white 20%, #08298A 30% 70%);/*Snow Effect*/
+    /*background: linear-gradient(to bottom, white 20%, #08298A 30% 70%);Snow Effect*/
 }
 .mountain-6 {
 	position: absolute; bottom: 0; left: 6%; 
@@ -88,7 +88,7 @@ body {
     clip-path: polygon(0% 100%, 100% 100%, 50% 0%);
     background-color:#0B4C5F;
     background-image: linear-gradient(to top, rgba(0, 1, 80, 0.5), transparent);/*For when there is no snow effect*/
-    background: linear-gradient(to bottom, white 20%, #0B4C5F 30% 70%);/*Snow Effect*/
+    /*background: linear-gradient(to bottom, white 20%, #0B4C5F 30% 70%);Snow Effect*/
 }
 
 
