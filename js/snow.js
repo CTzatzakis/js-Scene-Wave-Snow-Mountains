@@ -30,10 +30,8 @@ var snowStyles = "	cursor: default; \
 -ms-user-select: none; \
 -o-user-select: none; \
 user-select: none;";
-
-/*
-* End of Configuration
-*/
+var mountainColors = ["#088A85", "#0B0B61", "#086A87", "#848484", "#08298A", "#0B4C5F"];
+var mountainIDs = ["mountain-1", "mountain-2", "mountain-3", "mountain-4", "mountain-5", "mountain-6"]
 //Variables
 var snow = []; //Snowflake table
 var position = []; //
@@ -104,13 +102,17 @@ function moveSnow() {
 			{
 				counterForMountainsSnow++;
 				if(counterForMountainsSnow < snowMax/3)
-				{
-					document.getElementById("mountain-1").style.background="linear-gradient(to bottom, white "+(((counterForMountainsSnow)/(snowMax))*100)+"%, #088A85 "+((((counterForMountainsSnow)/(snowMax))*100)+10)+"% "+((((snowMax-counterForMountainsSnow)/(snowMax))*100)-10)+"%)";
-					document.getElementById("mountain-2").style.background="linear-gradient(to bottom, white "+(((counterForMountainsSnow)/(snowMax))*100)+"%, #0B0B61 "+((((counterForMountainsSnow)/(snowMax))*100)+10)+"% "+((((snowMax-counterForMountainsSnow)/(snowMax))*100)-10)+"%)";
-					document.getElementById("mountain-3").style.background="linear-gradient(to bottom, white "+(((counterForMountainsSnow)/(snowMax))*100)+"%, #086A87 "+((((counterForMountainsSnow)/(snowMax))*100)+10)+"% "+((((snowMax-counterForMountainsSnow)/(snowMax))*100)-10)+"%)";
-					document.getElementById("mountain-4").style.background="linear-gradient(to bottom, white "+(((counterForMountainsSnow)/(snowMax))*100)+"%, #848484 "+((((counterForMountainsSnow)/(snowMax))*100)+10)+"% "+((((snowMax-counterForMountainsSnow)/(snowMax))*100)-10)+"%)";
-					document.getElementById("mountain-5").style.background="linear-gradient(to bottom, white "+(((counterForMountainsSnow)/(snowMax))*100)+"%, #08298A "+((((counterForMountainsSnow)/(snowMax))*100)+10)+"% "+((((snowMax-counterForMountainsSnow)/(snowMax))*100)-10)+"%)";
-					document.getElementById("mountain-6").style.background="linear-gradient(to bottom, white "+(((counterForMountainsSnow)/(snowMax))*100)+"%, #0B4C5F "+((((counterForMountainsSnow)/(snowMax))*100)+10)+"% "+((((snowMax-counterForMountainsSnow)/(snowMax))*100)-10)+"%)";
+				{																
+					//for (j = 0; j <= 6; j++) {
+					//	document.getElementById(mountainIDs[j]).style.background="linear-gradient(to bottom, white "+(((counterForMountainsSnow)/(snowMax))*100)+"%, "+mountainColors[j]+" "+((((counterForMountainsSnow)/(snowMax))*100)+10)+"% "+((((snowMax-counterForMountainsSnow)/(snowMax))*100)-10)+"%)";
+					//}	
+						document.getElementById(mountainIDs[0]).style.background="linear-gradient(to bottom, white "+(((counterForMountainsSnow)/(snowMax))*100)+"%, "+mountainColors[0]+" "+((((counterForMountainsSnow)/(snowMax))*100)+10)+"% "+((((snowMax-counterForMountainsSnow)/(snowMax))*100)-10)+"%)";
+						document.getElementById(mountainIDs[1]).style.background="linear-gradient(to bottom, white "+(((counterForMountainsSnow)/(snowMax))*100)+"%, "+mountainColors[1]+" "+((((counterForMountainsSnow)/(snowMax))*100)+10)+"% "+((((snowMax-counterForMountainsSnow)/(snowMax))*100)-10)+"%)";
+						document.getElementById(mountainIDs[2]).style.background="linear-gradient(to bottom, white "+(((counterForMountainsSnow)/(snowMax))*100)+"%, "+mountainColors[2]+" "+((((counterForMountainsSnow)/(snowMax))*100)+10)+"% "+((((snowMax-counterForMountainsSnow)/(snowMax))*100)-10)+"%)";
+						document.getElementById(mountainIDs[3]).style.background="linear-gradient(to bottom, white "+(((counterForMountainsSnow)/(snowMax))*100)+"%, "+mountainColors[3]+" "+((((counterForMountainsSnow)/(snowMax))*100)+10)+"% "+((((snowMax-counterForMountainsSnow)/(snowMax))*100)-10)+"%)";
+						document.getElementById(mountainIDs[4]).style.background="linear-gradient(to bottom, white "+(((counterForMountainsSnow)/(snowMax))*100)+"%, "+mountainColors[4]+" "+((((counterForMountainsSnow)/(snowMax))*100)+10)+"% "+((((snowMax-counterForMountainsSnow)/(snowMax))*100)-10)+"%)";
+						document.getElementById(mountainIDs[5]).style.background="linear-gradient(to bottom, white "+(((counterForMountainsSnow)/(snowMax))*100)+"%, "+mountainColors[5]+" "+((((counterForMountainsSnow)/(snowMax))*100)+10)+"% "+((((snowMax-counterForMountainsSnow)/(snowMax))*100)-10)+"%)";
+					
 				}
 			}
 		}

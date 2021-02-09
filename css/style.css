@@ -10,7 +10,7 @@ html,body{
 body {
   margin: 0;
   padding: 4rem; /*Create a paspartu frame effect*/
-  background-color: #ff3333;
+  background-color: #fff;
   background-image: linear-gradient(to center, rgba(0, 1, 85, 0.5), transparent);
 }
 
@@ -97,7 +97,7 @@ body {
     width:inherit;
 }
 
-.wave-header { /*Extra area needed (as a safety net) for the waves to rize*/
+.wave-header { /*Extra area (as a safety net) for the waves to rize*/
   mmin-height: 200px;
   width:inherit;
   padding: 2rem;
