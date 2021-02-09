@@ -76,7 +76,6 @@ function loadSnow() {
 function resize() {
 	marginBottom = document.getElementById("snow-js").scrollHeight - 5;
 	marginRight = document.getElementById("snow-js").clientWidth - 15;
-	document.getElementById("snow-js").addEventListener("load", loadSnow());
 };
 
 function moveSnow() {
